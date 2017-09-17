@@ -22,6 +22,7 @@
     <script src="assets/vendor/jquery/jquery.min.js"></script>
     <script src="assets/vendor/popper/popper.min.js"></script>
     <script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/bigpicture/dist/BigPicture.js"></script>
     <script src="assets/javascript/listing-review.js"></script>
 
 </head>
@@ -153,6 +154,40 @@
         </div>
 
     </div>
+
+    <script>
+        function setClickHandler(id, fn) {
+            document.getElementById(id).onclick = fn;
+        }
+
+        setClickHandler('remote-image1', function(e) {
+            e.target.tagName === 'IMG' && BigPicture({
+                el: e.target,
+                imgSrc: e.target.src.replace()
+            });
+        });
+
+        setClickHandler('remote-image2', function(e) {
+            e.target.tagName === 'IMG' && BigPicture({
+                el: e.target,
+                imgSrc: e.target.src.replace()
+            });
+        });
+
+        setClickHandler('remote-image3', function(e) {
+            e.target.tagName === 'IMG' && BigPicture({
+                el: e.target,
+                imgSrc: e.target.src.replace()
+            });
+        });
+
+        setClickHandler('remote-image4', function(e) {
+            e.target.tagName === 'IMG' && BigPicture({
+                el: e.target,
+                imgSrc: e.target.src.replace()
+            });
+        });
+    </script>
 
     <button type="button" id="cancel" class="btn1 btn-danger" value="back" onclick="return back_onclick()">Back</button>
 

@@ -36,37 +36,6 @@ function myMap1() {
     });
 }
 
-function setClickHandler(id, fn) {
-    document.getElementById(id).onclick = fn;
-}
-
-setClickHandler('remote-image1', function(e) {
-    e.target.tagName === 'IMG' && BigPicture({
-        el: e.target,
-        imgSrc: e.target.src.replace()
-    });
-});
-
-setClickHandler('remote-image2', function(e) {
-    e.target.tagName === 'IMG' && BigPicture({
-        el: e.target,
-        imgSrc: e.target.src.replace()
-    });
-});
-
-setClickHandler('remote-image3', function(e) {
-    e.target.tagName === 'IMG' && BigPicture({
-        el: e.target,
-        imgSrc: e.target.src.replace()
-    });
-});
-
-setClickHandler('remote-image4', function(e) {
-    e.target.tagName === 'IMG' && BigPicture({
-        el: e.target,
-        imgSrc: e.target.src.replace()
-    });
-});
 
 function back_onclick() {
     window.location.href = "https://alecjpav.github.io/AutoViato/listing-table.html";
