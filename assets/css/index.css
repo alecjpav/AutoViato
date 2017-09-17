@@ -1,0 +1,77 @@
+body {
+    background-image: url("../images/girldel.jpg");
+    /*padding: 30px;*/
+}
+
+/*.jumbotron {
+  max-width: 100%;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  color: inherit;
+  background-color: #7DA7F0;
+   opacity : 0.7;
+}*/
+
+#h {
+    font-family: 'Monoton', cursive;
+    margin-left: 475px;
+    font-size: 75px;
+    color: white;
+}
+
+#hh {
+    padding-top: 280px;
+    position: relative;
+    display: block;
+    font-weight: bold;
+    font-family: 'Pacifico', cursive;
+    font-size: 60px;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    left: 50px;
+}
+
+.jumbotron p {
+    position: absolute;
+    display: block;
+    color: white;
+    font-size: 20px;
+}
+
+#sendbtn {
+    margin-left: 30%;
+    /* margin-right: 150px;*/
+    margin-top: 25px;
+    height: 55px;
+    width: 110px;
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+}
+
+#delbtn {
+    height: 55px;
+    width: 110px;
+    font-family: 'Pacifico', cursive;
+    margin-top: 25px;
+    margin-left: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.btn-arrow-right:after,
+.btn-arrow-left:after {
+    /* align the "after" square to the right */ 
+    right: -11px;
+}
+
+.btn-arrow-right:after,
+.btn-arrow-left:before {
+    /* bring arrow pointers to front */
+    z-index: 1;
+}
+
+.btn-arrow-right:before,
+.btn-arrow-left:after {
+    /* hide arrow tails background */
+    background-color: white;
+}

@@ -1,0 +1,34 @@
+.jumbotron {
+    background-image: url("../images/googlemap.png");
+    height: 20vh;
+}
+
+h1 {
+    font-family: 'Pacifico', serif;
+    margin-top: 100px;
+    margin-left: 610px;
+    color: #003366;
+    font-size: 54px;
+}
+
+img {
+    margin-top: 10px;
+    margin-left: 560px;
+}
+
+p {
+    font-family: 'Pacifico', serif;
+    margin-left: 470px;
+    color: #003366;
+    font-size: 25px;
+}
+
+.btn {
+    margin-left: 48%;
+    margin-top: 25px;
+    height: 45px;
+    width: 100px;
+    font-family: 'Pacifico', serif;
+    font-size: 24px;
+    margin-bottom: 100px;
+}

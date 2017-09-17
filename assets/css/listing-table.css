@@ -1,0 +1,52 @@
+.h1 {
+    position: absolute;
+    font-weight: bold;
+    font-family: 'Pacifico', serif;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-size: 62px;
+    font-weight: normal;
+    color: white;
+    padding-left: 17%;
+    margin-top: -5%;
+}
+
+.jumbotron {
+    background-image: url("../images/googlemap.png");
+    height: 20vh;
+    margin-left: 120px;
+    margin-right: 150px;
+}
+
+/*.jumbotron {
+  max-width: 100%;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-image: url(https://postlaunch.co/wp-content/uploads/2016/06/google-map-background-1900x1170.png);
+  color: inherit;
+  background-color: #blue;
+}*/
+
+#cancel {
+    /*position: absolute;*/
+    margin-left: 250px;
+    margin-bottom: 10px;
+    font-family: 'Pacifico', serif;
+    font-size: 24px;
+}
+
+#confirm {
+    /*position: absolute;*/
+    margin-left: 820px;
+    font-family: 'Pacifico', serif;
+    font-size: 24px;
+}
+
+.table {
+    /*position: absolute;*/
+    margin-top: 5%;
+    margin-left: 250px;
+}
+
+/*.container {
+  
+}*/

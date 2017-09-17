@@ -28,10 +28,7 @@
 
 <body>
 
-
-
     <div class="container">
-
 
         <h1 class="my-4">Review your selected listings
             <br>
@@ -55,13 +52,11 @@
             </div>
 
 
-
             <div class="col-md-6">
                 <div class="panel panel-default">
 
                     <div class="panel-heading">Shipping Information</div>
                     <div class="panel-body">
-
 
                         <table class="table">
                             <tbody>
@@ -131,13 +126,11 @@
         <br>
         <br>
 
-
         <div class="col-md-12">
             <div class="panel panel-default">
 
                 <div class="panel-heading">Item Information</div>
                 <div class="panel-body">
-
 
                     <table class="table">
                         <tbody>
@@ -159,68 +152,11 @@
             </div>
         </div>
 
-
-
-
     </div>
-
 
     <button type="button" id="cancel" class="btn1 btn-danger" value="back" onclick="return back_onclick()">Back</button>
 
     <button type="button" id="confirm" class="btn2 btn-primary" value="confirm" onclick="return confirm_onclick()">Confirm</button>
-    <!-- <button type="button" class="btn2 btn-success">Confirm</button> -->
-
-
-
-    <script type="text/javascript">
-        function back_onclick() {
-            window.location.href = "https://alecjpav.github.io/AutoViato/listing-table.html";
-        }
-
-        function confirm_onclick() {
-            window.location.href = "https://alecjpav.github.io/AutoViato/confirmation-shipper.html";
-        }
-    </script>
-<script src="assets/bigpicture/dist/BigPicture.js"></script>
-<script>
-
-    function setClickHandler(id, fn) {
-      document.getElementById(id).onclick = fn;
-    }
-
-    setClickHandler('remote-image1', function(e) {
-      e.target.tagName === 'IMG' && BigPicture({
-        el: e.target,
-        imgSrc: e.target.src.replace()
-      });
-    });
-
-    setClickHandler('remote-image2', function(e) {
-      e.target.tagName === 'IMG' && BigPicture({
-        el: e.target,
-        imgSrc: e.target.src.replace()
-      });
-    });
-
-    setClickHandler('remote-image3', function(e) {
-      e.target.tagName === 'IMG' && BigPicture({
-        el: e.target,
-        imgSrc: e.target.src.replace()
-      });
-    });
-
-    setClickHandler('remote-image4', function(e) {
-      e.target.tagName === 'IMG' && BigPicture({
-        el: e.target,
-        imgSrc: e.target.src.replace()
-      });
-    });
-    
-
-</script>
-    <!-- Bootstrap core JavaScript -->
-
-
 
 </body>
 
